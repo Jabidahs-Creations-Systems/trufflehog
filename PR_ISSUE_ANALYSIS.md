@@ -22,7 +22,9 @@ The issue is caused by a **PENDING review** in PR #2. When a review is in PENDIN
 - **Files Changed**: 116 files
 - **Status**: Blocked (mergeable_state: "blocked")
 
-### Changes Made in PR #2:
+### Changes Proposed in PR #2:
+**Note**: These are the changes that PR #2 claims to make. However, as explained in the Verification section below, these issues don't appear to exist on the current main branch.
+
 1. Fixed undefined variable (changed `inactiveSecret` to `inactiveOldFormatSecret` on line 69)
 2. Added missing closing brace for tests slice before for loop (line 123)  
 3. Extensive formatting changes (spaces to tabs) across 100+ files

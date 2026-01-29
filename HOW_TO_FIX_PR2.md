@@ -16,9 +16,10 @@ You should see a yellow/orange banner near the top that says:
 ### Step 3: Click "Finish your review" or "View pending review"
 
 ### Step 4: You'll see a review dialog with three options:
-1. **Comment** - Just add feedback without approving
-2. **Approve** - Accept the changes
-3. **Request changes** - Ask for modifications
+Choose one of the following:
+- **Comment** - Just add feedback without approving
+- **Approve** - Accept the changes
+- **Request changes** - Ask for modifications
 
 ### Step 5: Choose an option and click "Submit review"
 

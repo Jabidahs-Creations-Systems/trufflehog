@@ -1,9 +1,10 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ""
-labels: enhancement, needs triage
-assignees: trufflesecurity/product-eng
+title: ''
+labels: enhancement
+assignees: ''
+
 ---
 
 Please review the [Community Note](https://github.com/trufflesecurity/trufflehog/blob/main/.github/community_note.md) before submitting
@@ -28,5 +29,3 @@ Are there any other GitHub issues (open or closed) or pull requests that should 
 
 * #0000
 --->
-
-

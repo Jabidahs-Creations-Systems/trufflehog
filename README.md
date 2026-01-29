@@ -242,7 +242,7 @@ trufflehog github --repo=https://github.com/trufflesecurity/test_keys --issue-co
 
 **Use Cases:**
 - Find credentials accidentally pasted into issue discussions
-- Detect secrets shared during code review conversations  
+- Detect secrets shared during code review conversations
 - Audit historical communications for leaked authentication tokens
 - Ensure compliance by scanning all repository content
 

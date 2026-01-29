@@ -64,7 +64,7 @@ func (s Scanner) FromData(ctx context.Context, verify bool, data []byte) (result
 						} else {
 							s1.Verified = false
 						}
-					} 
+					}
 				}
 			}
 		}

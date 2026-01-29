@@ -12,13 +12,13 @@ import (
 )
 
 var (
-    validKey        = "b631516f9ef65883d1fa8124a09bfd51209cfb38081eb8e1e9054a37210fdb5a"
-    invalidKey      = "b631516f9ef65883d1fa81?4a09bfd51209cfb38081eb8e1e9054a37210fdb5a"
-    validId         = "Cce4c920e27143ee7bef6d57381f468d8dca7ac861f3d1e3f09205ee7a0927b0b"
-    invalidId       = "Cce4c920e27143ee7bef6d573?1f468d8dca7ac861f3d1e3f09205ee7a0927b0b"
-    validGetError   = "redirect_uri_mismatch"
-    invalidGetError = "redirect_url_mismatch"
-    keyword         = "webex"
+	validKey        = "b631516f9ef65883d1fa8124a09bfd51209cfb38081eb8e1e9054a37210fdb5a"
+	invalidKey      = "b631516f9ef65883d1fa81?4a09bfd51209cfb38081eb8e1e9054a37210fdb5a"
+	validId         = "Cce4c920e27143ee7bef6d57381f468d8dca7ac861f3d1e3f09205ee7a0927b0b"
+	invalidId       = "Cce4c920e27143ee7bef6d573?1f468d8dca7ac861f3d1e3f09205ee7a0927b0b"
+	validGetError   = "redirect_uri_mismatch"
+	invalidGetError = "redirect_url_mismatch"
+	keyword         = "webex"
 )
 
 func TestWebex_Pattern(t *testing.T) {

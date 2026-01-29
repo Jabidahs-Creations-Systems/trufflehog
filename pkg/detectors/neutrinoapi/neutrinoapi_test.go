@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "mHvIoyAsS593j9zKRHEGO81aEMPKgQxmzfWnuDSkWGZZ6qof"
-    invalidKey = "mHvIoyAsS593j9zKRH?GO81aEMPKgQxmzfWnuDSkWGZZ6qof"
-    validId    = "yWT99sOl6"
-    invalidId  = "yWT?9sOl6"
-    keyword    = "neutrinoapi"
+	validKey   = "mHvIoyAsS593j9zKRHEGO81aEMPKgQxmzfWnuDSkWGZZ6qof"
+	invalidKey = "mHvIoyAsS593j9zKRH?GO81aEMPKgQxmzfWnuDSkWGZZ6qof"
+	validId    = "yWT99sOl6"
+	invalidId  = "yWT?9sOl6"
+	keyword    = "neutrinoapi"
 )
 
 func TestNeutrinoApi_Pattern(t *testing.T) {

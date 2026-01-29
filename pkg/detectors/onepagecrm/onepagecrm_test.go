@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "R1kugPxUfw9oSeg=f7tofxYrLnG2PIEVuOSJhUNNahEe"
-    invalidKey = "R1kugPxUfw9oSeg=f7tofx?rLnG2PIEVuOSJhUNNahEe"
-    validId    = "tg1fnd78xz8ye9jl4zf6sarf"
-    invalidId  = "tg1fnd78xz8y?9jl4zf6sarf"
-    keyword    = "onepagecrm"
+	validKey   = "R1kugPxUfw9oSeg=f7tofxYrLnG2PIEVuOSJhUNNahEe"
+	invalidKey = "R1kugPxUfw9oSeg=f7tofx?rLnG2PIEVuOSJhUNNahEe"
+	validId    = "tg1fnd78xz8ye9jl4zf6sarf"
+	invalidId  = "tg1fnd78xz8y?9jl4zf6sarf"
+	keyword    = "onepagecrm"
 )
 
 func TestOnepageCRM_Pattern(t *testing.T) {

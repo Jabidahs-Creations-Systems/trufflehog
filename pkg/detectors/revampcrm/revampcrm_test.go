@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "JFjlJg7KqFGp5RmsJVq7WDmwObgHW6JEtMOitGuP"
-    invalidKey = "JFjlJg7KqFGp5RmsJVq7?DmwObgHW6JEtMOitGuP"
-    validId    = "JzNRi@oQyzxG>LG7f2oe7R.Xf"
-    invalidId  = "JzNRi@oQyzxG!LG7f2oe7R.Xf"
-    keyword    = "revampcrm"
+	validKey   = "JFjlJg7KqFGp5RmsJVq7WDmwObgHW6JEtMOitGuP"
+	invalidKey = "JFjlJg7KqFGp5RmsJVq7?DmwObgHW6JEtMOitGuP"
+	validId    = "JzNRi@oQyzxG>LG7f2oe7R.Xf"
+	invalidId  = "JzNRi@oQyzxG!LG7f2oe7R.Xf"
+	keyword    = "revampcrm"
 )
 
 func TestRevampCRM_Pattern(t *testing.T) {

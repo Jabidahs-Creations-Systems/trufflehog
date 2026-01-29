@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "zDbWB2TozuNJj8o56FIB0PVfE7LfjHFd"
-    invalidKey = "zDbWB2TozuNJj8o5?FIB0PVfE7LfjHFd"
-    validId    = "UEN9VEUk4z1oY-pV2CPLZBAnn0rPWY3LCqNv"
-    invalidId  = "UEN9VEUk4z1oY-pV2C?LZBAnn0rPWY3LCqNv"
-    keyword    = "surveyanyplace"
+	validKey   = "zDbWB2TozuNJj8o56FIB0PVfE7LfjHFd"
+	invalidKey = "zDbWB2TozuNJj8o5?FIB0PVfE7LfjHFd"
+	validId    = "UEN9VEUk4z1oY-pV2CPLZBAnn0rPWY3LCqNv"
+	invalidId  = "UEN9VEUk4z1oY-pV2C?LZBAnn0rPWY3LCqNv"
+	keyword    = "surveyanyplace"
 )
 
 func TestSurveyAnyplace_Pattern(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "UzwkWoJlOqT5q9pXbX2n"
-    invalidKey = "UzwkWoJlOq?5q9pXbX2n"
-    validId    = "pers5g2aa5icwflc1cmqjrs3ij8iqjmsg1x3"
-    invalidId  = "pers5g2aa5icwflc1c?qjrs3ij8iqjmsg1x3"
-    keyword    = "smartystreets"
+	validKey   = "UzwkWoJlOqT5q9pXbX2n"
+	invalidKey = "UzwkWoJlOq?5q9pXbX2n"
+	validId    = "pers5g2aa5icwflc1cmqjrs3ij8iqjmsg1x3"
+	invalidId  = "pers5g2aa5icwflc1c?qjrs3ij8iqjmsg1x3"
+	keyword    = "smartystreets"
 )
 
 func TestSmartyStreets_Pattern(t *testing.T) {

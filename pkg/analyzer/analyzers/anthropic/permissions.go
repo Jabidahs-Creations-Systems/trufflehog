@@ -6,56 +6,56 @@ import "errors"
 type Permission int
 
 const (
-    Invalid Permission = iota
-    FullAccess Permission = iota
+	Invalid    Permission = iota
+	FullAccess Permission = iota
 )
 
 var (
-    PermissionStrings = map[Permission]string{
-        FullAccess: "full_access",
-    }
+	PermissionStrings = map[Permission]string{
+		FullAccess: "full_access",
+	}
 
-    StringToPermission = map[string]Permission{
-        "full_access": FullAccess,
-    }
+	StringToPermission = map[string]Permission{
+		"full_access": FullAccess,
+	}
 
-    PermissionIDs = map[Permission]int{
-        FullAccess: 1,
-    }
+	PermissionIDs = map[Permission]int{
+		FullAccess: 1,
+	}
 
-    IdToPermission = map[int]Permission{
-        1: FullAccess,
-    }
+	IdToPermission = map[int]Permission{
+		1: FullAccess,
+	}
 )
 
 // ToString converts a Permission enum to its string representation
 func (p Permission) ToString() (string, error) {
-    if str, ok := PermissionStrings[p]; ok {
-        return str, nil
-    }
-    return "", errors.New("invalid permission")
+	if str, ok := PermissionStrings[p]; ok {
+		return str, nil
+	}
+	return "", errors.New("invalid permission")
 }
 
 // ToID converts a Permission enum to its ID
 func (p Permission) ToID() (int, error) {
-    if id, ok := PermissionIDs[p]; ok {
-        return id, nil
-    }
-    return 0, errors.New("invalid permission")
+	if id, ok := PermissionIDs[p]; ok {
+		return id, nil
+	}
+	return 0, errors.New("invalid permission")
 }
 
 // PermissionFromString converts a string representation to its Permission enum
 func PermissionFromString(s string) (Permission, error) {
-    if p, ok := StringToPermission[s]; ok {
-        return p, nil
-    }
-    return 0, errors.New("invalid permission string")
+	if p, ok := StringToPermission[s]; ok {
+		return p, nil
+	}
+	return 0, errors.New("invalid permission string")
 }
 
 // PermissionFromID converts an ID to its Permission enum
 func PermissionFromID(id int) (Permission, error) {
-    if p, ok := IdToPermission[id]; ok {
-        return p, nil
-    }
-    return 0, errors.New("invalid permission ID")
+	if p, ok := IdToPermission[id]; ok {
+		return p, nil
+	}
+	return 0, errors.New("invalid permission ID")
 }

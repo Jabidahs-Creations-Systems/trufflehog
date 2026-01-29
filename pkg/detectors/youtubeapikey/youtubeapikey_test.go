@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "8SN8OtkzJ6z2tcFtv93Gl63o97LGGBvYAyJviDg"
-    invalidKey = "8SN8OtkzJ6z2tcFtv93?l63o97LGGBvYAyJviDg"
-    validId    = "0ifNmkGT6biPToj9TDGYqyFP"
-    invalidId  = "0ifNmkG?6biPToj9TDGYqyFP"
-    keyword    = "youtubeapikey"
+	validKey   = "8SN8OtkzJ6z2tcFtv93Gl63o97LGGBvYAyJviDg"
+	invalidKey = "8SN8OtkzJ6z2tcFtv93?l63o97LGGBvYAyJviDg"
+	validId    = "0ifNmkGT6biPToj9TDGYqyFP"
+	invalidId  = "0ifNmkG?6biPToj9TDGYqyFP"
+	keyword    = "youtubeapikey"
 )
 
 func TestYoutubeApiKey_Pattern(t *testing.T) {

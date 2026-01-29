@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validAccessToken   = "00MMW9rRmrlVvBi!gZTTPUfk_nkghR_01qsw3NdcHTeDF8dQKWJmiOcfSjfdymrqXH0_vMci6VmxHzrlw07JSfeyMJrA_N89fUJU9vrAYWn_isTE"
-    invalidAccessToken = "00MMW9rRmrlVvBi!gZTTPUfk_nkghR_01qsw3NdcHTeDF8dQKWJmiOcf?jfdymrqXH0_vMci6VmxHzrlw07JSfeyMJrA_N89fUJU9vrAYWn_isTE"
-    validInstance      = "https://wDIMT.HmGz15hePYJBiaiG4leH6y.my.salesforce.com"
-    invalidInstance    = "https://wDIMT.HmGz15hePYJBi?iG4leH6y.my.salesforce.com"
-    keyword            = "salesforce"
+	validAccessToken   = "00MMW9rRmrlVvBi!gZTTPUfk_nkghR_01qsw3NdcHTeDF8dQKWJmiOcfSjfdymrqXH0_vMci6VmxHzrlw07JSfeyMJrA_N89fUJU9vrAYWn_isTE"
+	invalidAccessToken = "00MMW9rRmrlVvBi!gZTTPUfk_nkghR_01qsw3NdcHTeDF8dQKWJmiOcf?jfdymrqXH0_vMci6VmxHzrlw07JSfeyMJrA_N89fUJU9vrAYWn_isTE"
+	validInstance      = "https://wDIMT.HmGz15hePYJBiaiG4leH6y.my.salesforce.com"
+	invalidInstance    = "https://wDIMT.HmGz15hePYJBi?iG4leH6y.my.salesforce.com"
+	keyword            = "salesforce"
 )
 
 func TestSalesforce_Pattern(t *testing.T) {

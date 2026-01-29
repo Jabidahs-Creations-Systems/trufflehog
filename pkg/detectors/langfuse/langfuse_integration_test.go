@@ -29,7 +29,6 @@ func TestLangfuse_FromChunk(t *testing.T) {
 	inactivePublicKey := testSecrets.MustGetField("LANGFUSE_INACTIVE_PUBLIC_KEY")
 	inactiveSecretKey := testSecrets.MustGetField("LANGFUSE_INACTIVE_SECRET_KEY")
 
-
 	type args struct {
 		ctx    context.Context
 		data   []byte

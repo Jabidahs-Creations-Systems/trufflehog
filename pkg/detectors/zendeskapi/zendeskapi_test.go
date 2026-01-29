@@ -12,13 +12,13 @@ import (
 )
 
 var (
-    validToken    = "9kXe6PUOsazCNF48SK8pzNluINpVQzuuqTArJC9X"
-    invalidToken  = "9kXe6PUOsa?CNF48SK8pzNluINpVQzuuqTArJC9X"
-    validEmail    = "qT0pYx@yV8H7EmhFDbvH4j.com"
-    invalidEmail  = "qT0pYx@yV8H7Em?FDbvH4j.com"
-    validDomain   = "yF5j0x7.zendesk.com"
-    invalidDomain = "yF5j0x7.z?ndesk.com"
-    keyword       = "zendeskapi"
+	validToken    = "9kXe6PUOsazCNF48SK8pzNluINpVQzuuqTArJC9X"
+	invalidToken  = "9kXe6PUOsa?CNF48SK8pzNluINpVQzuuqTArJC9X"
+	validEmail    = "qT0pYx@yV8H7EmhFDbvH4j.com"
+	invalidEmail  = "qT0pYx@yV8H7Em?FDbvH4j.com"
+	validDomain   = "yF5j0x7.zendesk.com"
+	invalidDomain = "yF5j0x7.z?ndesk.com"
+	keyword       = "zendeskapi"
 )
 
 func TestZendeskApi_Pattern(t *testing.T) {

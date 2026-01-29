@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "xw4xxzwjzerq6rf3zvd8zwnlh0yq62g4f7l97xxlg4u1043zrx4ndtptkoqdn49e"
-    invalidKey = "xw4xxzwjzerq6r?3zvd8zwnlh0yq62g4f7l97xxlg4u1043zrx4ndtptkoqdn49e"
-    validId    = "lnurl7e15mgdgv1hyalo"
-    invalidId  = "lnurl7e15m?dgv1hyalo"
-    keyword    = "pinata"
+	validKey   = "xw4xxzwjzerq6rf3zvd8zwnlh0yq62g4f7l97xxlg4u1043zrx4ndtptkoqdn49e"
+	invalidKey = "xw4xxzwjzerq6r?3zvd8zwnlh0yq62g4f7l97xxlg4u1043zrx4ndtptkoqdn49e"
+	validId    = "lnurl7e15mgdgv1hyalo"
+	invalidId  = "lnurl7e15m?dgv1hyalo"
+	keyword    = "pinata"
 )
 
 func TestPinata_Pattern(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "d57fe072-befa-4df5-42f1-014f9d253699"
-    invalidKey = "d57fe072?befa-4df5-42f1-014f9d253699"
-    validId    = "5573995420@7486"
-    invalidId  = "5573995?20@7486"
-    keyword    = "tokeet"
+	validKey   = "d57fe072-befa-4df5-42f1-014f9d253699"
+	invalidKey = "d57fe072?befa-4df5-42f1-014f9d253699"
+	validId    = "5573995420@7486"
+	invalidId  = "5573995?20@7486"
+	keyword    = "tokeet"
 )
 
 func TestTokeet_Pattern(t *testing.T) {

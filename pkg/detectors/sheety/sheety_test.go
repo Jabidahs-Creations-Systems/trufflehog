@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "qtb537zc8slokboyekq08tsut9atqa4hnewgjsi2olklupy2z4s3wilqorymakjd"
-    invalidKey = "qtb537zc8slokboyekq08tsut9atqa4h?ewgjsi2olklupy2z4s3wilqorymakjd"
-    validId    = "81no0tu89hxci6swi979krdkv87f21z9"
-    invalidId  = "81no0tu89hxc?6swi979krdkv87f21z9"
-    keyword    = "sheety"
+	validKey   = "qtb537zc8slokboyekq08tsut9atqa4hnewgjsi2olklupy2z4s3wilqorymakjd"
+	invalidKey = "qtb537zc8slokboyekq08tsut9atqa4h?ewgjsi2olklupy2z4s3wilqorymakjd"
+	validId    = "81no0tu89hxci6swi979krdkv87f21z9"
+	invalidId  = "81no0tu89hxc?6swi979krdkv87f21z9"
+	keyword    = "sheety"
 )
 
 func TestSheety_Pattern(t *testing.T) {

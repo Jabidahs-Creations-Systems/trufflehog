@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey     = "QRv5GRXQjWmQ6esvXuvk3pcw0IMAw5NO"
-    invalidKey   = "QRv5GR?QjWmQ6esvXuvk3pcw0IMAw5NO"
-    validEmail   = "ejtaK2kkwuVx@1U6Evvih9YeT"
-    invalidEmail = "ejtaK2kkwuVx?1U6Evvih9YeT"
-    keyword      = "thousandeyes"
+	validKey     = "QRv5GRXQjWmQ6esvXuvk3pcw0IMAw5NO"
+	invalidKey   = "QRv5GR?QjWmQ6esvXuvk3pcw0IMAw5NO"
+	validEmail   = "ejtaK2kkwuVx@1U6Evvih9YeT"
+	invalidEmail = "ejtaK2kkwuVx?1U6Evvih9YeT"
+	keyword      = "thousandeyes"
 )
 
 func TestThousandEyes_Pattern(t *testing.T) {

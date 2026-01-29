@@ -21,7 +21,7 @@ var _ detectors.Detector = (*Scanner)(nil)
 
 var (
 	defaultClient = common.SaneHttpClient()
-	keyPat = regexp.MustCompile(detectors.PrefixRegex([]string{"bing"}) + `\b([a-fA-F0-9]{32})\b`)
+	keyPat        = regexp.MustCompile(detectors.PrefixRegex([]string{"bing"}) + `\b([a-fA-F0-9]{32})\b`)
 )
 
 func (s Scanner) Keywords() []string {

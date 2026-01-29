@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "Mkff1bQx72mxhvNdCsudapMP7eery91G"
-    invalidKey = "Mkff1bQx72mxhvNd?sudapMP7eery91G"
-    validId    = "0aOWuIMHYK6F30I1"
-    invalidId  = "?aOWuIMHYK6F30I?"
-    keyword    = "swell"
+	validKey   = "Mkff1bQx72mxhvNdCsudapMP7eery91G"
+	invalidKey = "Mkff1bQx72mxhvNd?sudapMP7eery91G"
+	validId    = "0aOWuIMHYK6F30I1"
+	invalidId  = "?aOWuIMHYK6F30I?"
+	keyword    = "swell"
 )
 
 func TestSwell_Pattern(t *testing.T) {

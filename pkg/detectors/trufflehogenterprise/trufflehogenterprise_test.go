@@ -12,13 +12,13 @@ import (
 )
 
 var (
-    validKey        = "thog-key-946c7e0fbee2baff"
-    invalidKey      = "thog-key-946?7e0fbee2baff"
-    validSecret     = "thog-secret-8fbfc135085421e62d8f1982af17bbf6"
-    invalidSecret   = "thog-secret-8fbfc13?085421e62d8f1982af17bbf6"
-    validHostname   = "uryfanaextzftqnwkordjwtrascqbihyctwttsntssxgbmgtnghmaiossoiablwqntsnudfdz-grthynfwdntsfdyuvk-tqfecqndhkmebecezcyzptxnsgprzkdcwzwnzdxpm.v6.zfjkrzjmutvvwwqftipvtkdwg.trufflehog.org"
-    invalidHostname = "?ryfanaextzftqnwkordjwtrascqbihyctwttsntssxgbmgtnghmaiossoiablwqntsnudfdz-grthynfwdntsfdyuvk-tqfecqndhkmebecezcyzptxnsgprzkdcwzwnzdxpm.v6.zfjkrzjmutvvwwqftipvtkdwg.trufflehog.org"
-    keyword         = "trufflehogenterprise"
+	validKey        = "thog-key-946c7e0fbee2baff"
+	invalidKey      = "thog-key-946?7e0fbee2baff"
+	validSecret     = "thog-secret-8fbfc135085421e62d8f1982af17bbf6"
+	invalidSecret   = "thog-secret-8fbfc13?085421e62d8f1982af17bbf6"
+	validHostname   = "uryfanaextzftqnwkordjwtrascqbihyctwttsntssxgbmgtnghmaiossoiablwqntsnudfdz-grthynfwdntsfdyuvk-tqfecqndhkmebecezcyzptxnsgprzkdcwzwnzdxpm.v6.zfjkrzjmutvvwwqftipvtkdwg.trufflehog.org"
+	invalidHostname = "?ryfanaextzftqnwkordjwtrascqbihyctwttsntssxgbmgtnghmaiossoiablwqntsnudfdz-grthynfwdntsfdyuvk-tqfecqndhkmebecezcyzptxnsgprzkdcwzwnzdxpm.v6.zfjkrzjmutvvwwqftipvtkdwg.trufflehog.org"
+	keyword         = "trufflehogenterprise"
 )
 
 func TestTrufflehogenterprise_Pattern(t *testing.T) {

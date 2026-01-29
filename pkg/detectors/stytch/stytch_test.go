@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "TSIDpkOi1MKTudKSFs-KXGdOeH3ECTeXWtX7OAr4Y9k31m8="
-    invalidKey = "TSIDpkOi1MKTudKSFs-KXGdO?H3ECTeXWtX7OAr4Y9k31m8="
-    validId    = "k7hi7kqgb6a8rqi0b8nbna1p-o32rv9xzlnvzbd5oa9yr-vtp"
-    invalidId  = "k7hi7kqgb6a8rqi0b8nbna1p?o32rv9xzlnvzbd5oa9yr-vtp"
-    keyword    = "stytch"
+	validKey   = "TSIDpkOi1MKTudKSFs-KXGdOeH3ECTeXWtX7OAr4Y9k31m8="
+	invalidKey = "TSIDpkOi1MKTudKSFs-KXGdO?H3ECTeXWtX7OAr4Y9k31m8="
+	validId    = "k7hi7kqgb6a8rqi0b8nbna1p-o32rv9xzlnvzbd5oa9yr-vtp"
+	invalidId  = "k7hi7kqgb6a8rqi0b8nbna1p?o32rv9xzlnvzbd5oa9yr-vtp"
+	keyword    = "stytch"
 )
 
 func TestStytch_Pattern(t *testing.T) {

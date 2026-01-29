@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "4wp0s2ug2fvj2qwvi19t1u84juyuj025"
-    invalidKey = "4wp0s2ug2fvj2qwv?19t1u84juyuj025"
-    validId    = "qqp3hmop"
-    invalidId  = "qqp3?mop"
-    keyword    = "nutritionix"
+	validKey   = "4wp0s2ug2fvj2qwvi19t1u84juyuj025"
+	invalidKey = "4wp0s2ug2fvj2qwv?19t1u84juyuj025"
+	validId    = "qqp3hmop"
+	invalidId  = "qqp3?mop"
+	keyword    = "nutritionix"
 )
 
 func TestNutritionix_Pattern(t *testing.T) {

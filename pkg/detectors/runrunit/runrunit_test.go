@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey         = "fdb658d66e09f2caaf9d452e544c3253"
-    invalidKey       = "fdb658d66e09f2c?af9d452e544c3253"
-    validUserToken   = "iUm7PtHOhdZxnn4jb5YR"
-    invalidUserToken = "iUm7PtHOhd?xnn4jb5YR"
-    keyword          = "runrunit"
+	validKey         = "fdb658d66e09f2caaf9d452e544c3253"
+	invalidKey       = "fdb658d66e09f2c?af9d452e544c3253"
+	validUserToken   = "iUm7PtHOhdZxnn4jb5YR"
+	invalidUserToken = "iUm7PtHOhd?xnn4jb5YR"
+	keyword          = "runrunit"
 )
 
 func TestRunRunIt_Pattern(t *testing.T) {

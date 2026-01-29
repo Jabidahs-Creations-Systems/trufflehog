@@ -12,13 +12,13 @@ import (
 )
 
 var (
-    validKey   = "rBqctDvrJyZ1MAj2aKHpi6wGcPiCzGtEbCSqtE46RB7yVCywVA"
-    invalidKey = "rBqctDvrJyZ1MAj2aKHpi6wGc?iCzGtEbCSqtE46RB7yVCywVA"
-    validId    = "dy0wgsgd-byq5-iqfb-ez1d-dvjepkyub9n9"
-    invalidId  = "dy0wgsgd?byq5-iqfb-ez1d-dvjepkyub9n9"
-    validUrl   = "09ft358n4gpa1c.signalwire.com"
-    invalidUrl = "09ft358n4gpa1c?signalwire.com"
-    keyword    = "signalwire"
+	validKey   = "rBqctDvrJyZ1MAj2aKHpi6wGcPiCzGtEbCSqtE46RB7yVCywVA"
+	invalidKey = "rBqctDvrJyZ1MAj2aKHpi6wGc?iCzGtEbCSqtE46RB7yVCywVA"
+	validId    = "dy0wgsgd-byq5-iqfb-ez1d-dvjepkyub9n9"
+	invalidId  = "dy0wgsgd?byq5-iqfb-ez1d-dvjepkyub9n9"
+	validUrl   = "09ft358n4gpa1c.signalwire.com"
+	invalidUrl = "09ft358n4gpa1c?signalwire.com"
+	keyword    = "signalwire"
 )
 
 func TestSignalwire_Pattern(t *testing.T) {

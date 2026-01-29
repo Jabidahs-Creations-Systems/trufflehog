@@ -12,11 +12,11 @@ import (
 )
 
 var (
-    validKey   = "OTXwnia5kOs-SlF3kZEFJK"
-    invalidKey = "OTXwnia5kOs?SlF3kZEFJK"
-    validUri   = "https://wwwSG7$com"
-    invalidUri = "https://?wwSG7$com"
-    keyword    = "ringcentral"
+	validKey   = "OTXwnia5kOs-SlF3kZEFJK"
+	invalidKey = "OTXwnia5kOs?SlF3kZEFJK"
+	validUri   = "https://wwwSG7$com"
+	invalidUri = "https://?wwSG7$com"
+	keyword    = "ringcentral"
 )
 
 func TestRingcentral_Pattern(t *testing.T) {

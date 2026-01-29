@@ -1,9 +1,10 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ""
-labels: bug, needs triage
-assignees: trufflesecurity/product-eng
+title: ''
+labels: bug
+assignees: ''
+
 ---
 
 Please review the [Community Note](https://github.com/trufflesecurity/trufflehog/blob/main/.github/community_note.md) before submitting
@@ -51,4 +52,3 @@ Are there any other GitHub issues (open or closed) or pull requests that should 
 --->
 
 * #0000
-

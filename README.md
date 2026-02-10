@@ -229,9 +229,22 @@ Expected output:
 
 ## 4: Scan a GitHub Repo + its Issues and Pull Requests
 
+TruffleHog can scan not only repository code, but also issue comments and pull request comments for exposed secrets. This comprehensive search helps ensure credentials aren't accidentally shared in discussions or code reviews.
+
 ```bash
 trufflehog github --repo=https://github.com/trufflesecurity/test_keys --issue-comments --pr-comments
 ```
+
+**Options:**
+- `--issue-comments`: Scan all comments on GitHub Issues for secrets
+- `--pr-comments`: Scan all comments on Pull Requests for secrets
+- Both flags can be used together for comprehensive coverage
+
+**Use Cases:**
+- Find credentials accidentally pasted into issue discussions
+- Detect secrets shared during code review conversations
+- Audit historical communications for leaked authentication tokens
+- Ensure compliance by scanning all repository content
 
 ## 5: Scan an S3 bucket for high-confidence results (verified + unknown)
 
